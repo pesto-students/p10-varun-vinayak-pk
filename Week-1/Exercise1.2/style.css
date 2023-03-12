@@ -1,0 +1,115 @@
+:root{
+    --gray: #f2f2f2;
+    --blue: #4f72a7;
+    --darkgray: #454545;
+}
+
+*{
+    font-family: Lato;
+}
+
+.mainbody{
+    width: 99.6%;
+    height: 100%;
+}
+
+.navbody{
+    width: 2%;
+    height: 82vh;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbody  a{
+   padding: 4vh 20%;
+   color: black;
+}
+
+.flexBox{
+    display: flex;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.imgBox{
+    padding: 20px;
+}
+
+.topDetail{
+    background-color: var(--darkgray);
+    width: 96vw;
+    color: white;
+    padding: 10px;
+}
+
+.bottomDetail{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detailShortcut{
+    font-size: 10px;
+    margin-bottom: 10px;
+
+}
+
+.detailShortcut i{
+    margin-right:5px ;
+
+}
+
+.detailShortcut span{
+    margin-left: 10px;
+}
+
+.musiclist{
+    width: 97.5%;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+li:nth-child(even){
+   background-color: #f2f2f2;
+}
+
+li > span{
+    display: inline-block;
+    width: 25%;
+    font-size: 12px;
+}
+span:nth-child(4n){
+    border: 1px solid rgb(77, 76, 76);
+    width: 130px;
+    color: blue;
+    text-align: center;
+}
+
+.footerStyling{
+    width: 100%;
+    background-color: var(--blue);
+    color: white;
+    justify-content: space-between;
+}
+
+.footerStyling img{
+    padding: 15px;
+    width: 104px;
+    height: 104px;
+}
+
+.musicControls{
+    width: 50%;
+    margin: auto 20px;
+    justify-content: space-between;
+}
+
+.musicControls li{
+    font-weight: 300;
+}
